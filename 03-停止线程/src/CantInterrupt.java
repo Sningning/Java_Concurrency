@@ -1,5 +1,3 @@
-package stopthread;
-
 /**
  * 如果 while 里面放 try/catch，会导致中断失效
  *

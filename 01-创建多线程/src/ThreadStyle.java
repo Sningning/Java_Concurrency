@@ -1,5 +1,3 @@
-package createthreads;
-
 /**
  * 用继承 Thread 类方式实现线程
  *

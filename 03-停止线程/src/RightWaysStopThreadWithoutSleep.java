@@ -1,5 +1,3 @@
-package stopthread;
-
 /**
  * run 方法内没有 sleep 或 wait 方法时，停止线程
  *

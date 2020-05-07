@@ -1,5 +1,3 @@
-package stopthread;
-
 /**
  * 最佳实践 1：catch 住 InterruptedExcetion 之后的优先选择：
  *            在方法签名中抛出异常，在 run() 就会强制 try/catch

@@ -1,5 +1,3 @@
-package stopthread;
-
 /**
  * 最佳实践 2：在 catch 子语句中调用 Thread.currentThread().interrupt() 来恢复设置中断状态，
  *          以便于在后续的执行中，依然能够检查到刚才发生了中断，回到刚才

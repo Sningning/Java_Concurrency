@@ -1,5 +1,3 @@
-package startthread;
-
 /**
  * 不能两次调用start方法，否则会报错
  *

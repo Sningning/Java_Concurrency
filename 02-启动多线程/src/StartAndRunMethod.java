@@ -1,5 +1,3 @@
-package startthread;
-
 /**
  * 对比 start 和 run 两种启动线程方式
  *

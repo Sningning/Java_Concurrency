@@ -1,4 +1,4 @@
-package createthreads.wrongways;
+package wrongways;
 
 /**
  * 匿名内部类的方式创建线程

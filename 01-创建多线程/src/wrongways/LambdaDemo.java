@@ -1,4 +1,4 @@
-package createthreads.wrongways;
+package wrongways;
 
 /**
  * lambda表达式创建线程

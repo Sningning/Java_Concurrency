@@ -1,5 +1,3 @@
-package createthreads;
-
 /**
  * 用实现 Runnable 接口方式创建线程
  *

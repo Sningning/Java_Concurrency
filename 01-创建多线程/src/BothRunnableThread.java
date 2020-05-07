@@ -1,5 +1,3 @@
-package createthreads;
-
 /**
  * 同时使用 Runnable 和 Thread 两种方式实现线程
  *

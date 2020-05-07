@@ -1,4 +1,4 @@
-package stopthread.volatiledemo;
+package volatiledemo;
 
 /**
  * 演示用volatile的局限：part1 看似可行

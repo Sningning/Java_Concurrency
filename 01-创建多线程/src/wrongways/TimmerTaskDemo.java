@@ -1,4 +1,4 @@
-package createthreads.wrongways;
+package wrongways;
 
 import java.util.Timer;
 import java.util.TimerTask;
