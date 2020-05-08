@@ -23,7 +23,7 @@ public class WaitNotifyPrintOddEveWait {
                 synchronized (OBJ) {
                     // 唤醒其他线程
                     OBJ.notify();
-                    System.out.println(Thread.currentThread().getName() + " : " + count++);
+                    System.out.println(Thread.currentThread().getName() + ": " + count++);
                     if (count <= 100) {
                         try {
                             // 如果任务还未结束，就休眠并释放锁
