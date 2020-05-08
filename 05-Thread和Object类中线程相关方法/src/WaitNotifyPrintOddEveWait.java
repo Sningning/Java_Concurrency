@@ -11,8 +11,8 @@ public class WaitNotifyPrintOddEveWait {
 
     public static void main(String[] args) {
 
-        new Thread(new PrintNumber(), "偶数").start();
-        new Thread(new PrintNumber(), "奇数").start();
+        new Thread(new PrintNumber(), "线程 1").start();
+        new Thread(new PrintNumber(), "线程 2").start();
     }
 
     static class PrintNumber implements Runnable {
