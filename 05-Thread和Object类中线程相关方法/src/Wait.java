@@ -8,7 +8,7 @@
  */
 public class Wait {
 
-    public static final Object OBJ = new Object();
+    private static final Object OBJ = new Object();
 
     static class Thread1 extends Thread {
         @Override
