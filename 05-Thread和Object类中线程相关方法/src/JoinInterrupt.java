@@ -13,6 +13,7 @@ public class JoinInterrupt {
             @Override
             public void run() {
                 try {
+                    Thread.sleep(1000);
                     mainThread.interrupt();
                     Thread.sleep(5000);
                     System.out.println("sleep()结束");
