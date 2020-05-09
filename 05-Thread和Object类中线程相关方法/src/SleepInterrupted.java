@@ -31,6 +31,7 @@ public class SleepInterrupted implements Runnable {
             } catch (InterruptedException e) {
                 e.printStackTrace();
                 System.out.println("已被中断");
+                System.out.println(Thread.currentThread().isInterrupted());
             }
         }
     }
