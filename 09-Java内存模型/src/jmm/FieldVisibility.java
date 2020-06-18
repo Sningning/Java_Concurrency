@@ -1,3 +1,5 @@
+package jmm;
+
 /**
  * 可见性
  * @Author: Song Ningning
