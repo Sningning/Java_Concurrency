@@ -4,7 +4,7 @@
  * @Author: Song Ningning
  * @Date: 2020-05-08 21:29
  */
-public class WaitNotifyPrintOddEveWait {
+public class WaitNotifyPrintOddEveNum {
 
     private static int count = 0;
     private static final Object OBJ = new Object();
