@@ -56,11 +56,11 @@ public class TryLockDeadlock implements Runnable {
             if (flag == 0) {
                 try {
                     // 线程 2 尝试获取锁 2
-                    if (lock2.tryLock(800, TimeUnit.MILLISECONDS)) {
+                    if (lock2.tryLock(1000, TimeUnit.MILLISECONDS)) {
                         System.out.println("线程 2 获取到了锁 2");
                         Thread.sleep(new Random().nextInt(1000));
                         // 线程 1 尝试获取锁 2
-                        if (lock1.tryLock(800, TimeUnit.MILLISECONDS)) {
+                        if (lock1.tryLock(1000, TimeUnit.MILLISECONDS)) {
                             System.out.println("线程 2 获取到了锁 1");
                             System.out.println("线程 2 获取到了两把锁");
                             lock1.unlock();
